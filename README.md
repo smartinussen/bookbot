@@ -1,2 +1,3 @@
 # bookbot
-Boot.dev guided project - Book bot in Python
+
+BookBot is my first [Boot.dev](https://www.boot.dev) project!
