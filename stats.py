@@ -2,6 +2,8 @@ def book_word_count(text):
     num_words = len(text.split())
     # print(f"{num_words} words found in the document")
     return num_words
+
+
 def book_character_count(text):
     characters_dict = {}
     for character in text:
@@ -11,8 +13,10 @@ def book_character_count(text):
             characters_dict[character.lower()] = 1
     return characters_dict
 
+
 def sort_on(dict):
     return dict["count"]
+
 
 def book_report(characters_dict):
     sorted_list = []
